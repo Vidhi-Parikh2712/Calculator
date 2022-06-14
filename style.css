@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+#container 
+{
+    width:400px;
+    height: 530px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin:10% auto;
+    background-color: rgb(92, 114, 134);
+}
+
+#items 
+{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+} 
+
+
+ /* #screen 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height:85px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+ #screen_upper
+{
+    display:flex;
+    width: 330px;
+    height:30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 25px;
+
+}
+
+#screen_lower
+{
+    display:flex;
+    width: 330px;
+    height:30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 25px;
+} */
+
+#result 
+{
+    display:flex;
+    width:340px;
+    height:85px;
+    font-size: 25px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    text-align: end;
+    padding-right:10px;
+}
+
+#features
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    gap:13px;
+    margin:18px;
+}
+
+#btn1
+{
+    padding:3px;
+    width: 170px;
+    height:70px;
+    border-radius: 10px;
+    background-color: rgb(224, 165, 165);
+    border-width: 3px;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#btn2
+{
+    padding:3px;
+    width: 170px;
+    height:70px;
+    border-radius: 5px;
+    background-color: rgb(131, 131, 212);
+    border-width: 3px;
+    font-size:20px;
+}
+
+#buttons
+{
+    margin:10px;
+}
+
+#row1,#row2,#row3,#row4
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin:5px;
+}
+
+.btn {
+    width: 80px;
+    height: 70px;
+    border-radius:5px;
+    padding:20px;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
